@@ -1,34 +1,30 @@
-# 🌟 your-package-name
+# Getting Started with Your Node TypeScript NPM Package
 
-### Key Features:
+Follow these steps to customize and set up your package:
 
-## 🚀 Installation
+1. **Update Package Name**  
+   - Modify _your-package-name_ in _package.json_ and other relevant files to reflect your package's name.
 
-## 🛠 Getting Started
+2. **Update Command Line Interface (CLI) Command**  
+   - Update the _bin/*_ files to define the CLI command you want to use.
+   - Reflect these changes in the _package.json_ under the _bin_ section.
 
-## 📸 Example
+3. **Setup Git Repository**  
+   - Initialize your Git repository.
+   - Add GitHub Actions as _coverall-github-action-workflow_ (copy and paste is fine, but feel free to modify if needed).
 
-![Example image](path.png)
+4. **Fill in the README**  
+   - Provide detailed information about your package in the README file.
 
-## 🌟 Why Choose your-package-name?
+5. **Add Your Code**  
+   - Add your package files to the _src/*_ directory.
 
+6. **Use .js Extensions**  
+   - Ensure that all imports use _.js_ extensions, since this package outputs both ESM and CJS formats.
 
-## 🌍 Supported Environments
+7. **Modify .gitignore**  
+   - The _.gitignore_ file is already set up, but feel free to add any other files you want to ignore.
 
-
-## 🎨 Customization
-
-## 🔧 Command Line Usage
-
-### Basic Usage
-
-### Options
-
-### Version
-
-### Example Commands
-
-### Combining Options
-
-## 🔧 Acknowledgments & Contributions
-
+8. **Configure TypeScript**  
+   - Modify the TypeScript configuration in _config/*_ to suit your needs.
+   - _esModuleInterop_ is turned off in _tsconfig_ because this is a package. If you turn it on, any other package using this will need to have it enabled too.
