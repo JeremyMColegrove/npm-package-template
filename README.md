@@ -30,4 +30,5 @@
 
 ### Combining Options
 
-## 🔧 Acknowledgments & Contributions# npm-package-template
+## 🔧 Acknowledgments & Contributions
+
