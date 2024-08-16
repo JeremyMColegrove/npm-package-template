@@ -1,0 +1,9 @@
+- Update your-package-name in package.json and other files to reflect your package
+- Update bin/* to reflect the cmd command you want, and update that in package.json bin
+- Setup git repo and add github actions as coverall-github-action-workflow (copy and paste is fine, but can modify if you want)
+- Fill in readme
+- Add files to src/* for your package
+- Make sure to use .js extensions for all imports, since this has esm and cjs outputs
+- .gitignore is already setup for you, but add any other files you want
+- modify the typescript config in config/* and choose respective file
+- esModuleInterp is off in tsconfig, this is becaeuse this is a package, and if on any other package that uses this needs to have it enabled too
