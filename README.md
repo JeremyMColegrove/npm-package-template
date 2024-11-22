@@ -28,3 +28,4 @@ Follow these steps to customize and set up your package:
 8. **Configure TypeScript**  
    - Modify the TypeScript configuration in _config/*_ to suit your needs.
    - _esModuleInterop_ is turned off in _tsconfig_ because this is a package. If you turn it on, any other package using this will need to have it enabled too.
+# ts-country-code
